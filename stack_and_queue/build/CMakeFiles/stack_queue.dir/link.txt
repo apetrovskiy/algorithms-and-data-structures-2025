@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstack_queue.a CMakeFiles/stack_queue.dir/src/stack_queue.c.o
+/usr/bin/ranlib libstack_queue.a

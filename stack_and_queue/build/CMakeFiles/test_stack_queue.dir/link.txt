@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/test_stack_queue.dir/test/test_stack_queue.c.o -o test_stack_queue  libstack_queue.a 

@@ -1,0 +1,22 @@
+Start testing: Aug 02 13:18 MSK
+----------------------------------------------------------
+1/1 Testing: test_bst
+1/1 Test: test_bst
+Command: "/home/artemii/bst/build/test_bst"
+Directory: /home/artemii/bst/build
+"test_bst" start time: Aug 02 13:18 MSK
+Output:
+----------------------------------------------------------
+In-order traversal: 40 60 70 80 
+Pre-order traversal: 60 40 70 80 
+Post-order traversal: 40 80 70 60 
+BST tests passed!
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_bst" end time: Aug 02 13:18 MSK
+"test_bst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 02 13:18 MSK

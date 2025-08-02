@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/test_bst.dir/test/test_bst.c.o -o test_bst  libbst.a 

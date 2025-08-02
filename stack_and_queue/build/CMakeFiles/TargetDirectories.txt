@@ -1,5 +1,0 @@
-/home/artemii/project/build/CMakeFiles/stack_queue.dir
-/home/artemii/project/build/CMakeFiles/test_stack_queue.dir
-/home/artemii/project/build/CMakeFiles/test.dir
-/home/artemii/project/build/CMakeFiles/edit_cache.dir
-/home/artemii/project/build/CMakeFiles/rebuild_cache.dir

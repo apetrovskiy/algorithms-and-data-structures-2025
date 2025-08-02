@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbst.a CMakeFiles/bst.dir/src/bst.c.o
+/usr/bin/ranlib libbst.a

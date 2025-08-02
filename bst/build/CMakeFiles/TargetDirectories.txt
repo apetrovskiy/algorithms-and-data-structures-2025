@@ -1,0 +1,5 @@
+/home/artemii/bst/build/CMakeFiles/bst.dir
+/home/artemii/bst/build/CMakeFiles/test_bst.dir
+/home/artemii/bst/build/CMakeFiles/test.dir
+/home/artemii/bst/build/CMakeFiles/edit_cache.dir
+/home/artemii/bst/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,49 @@
+{
+  "uid" : "8ddd3d1acc93ee60",
+  "name" : "LargeTree",
+  "historyId" : "BinaryTreeTest:BinaryTreeTest#LargeTree",
+  "time" : {
+    "start" : 1754246506805,
+    "stop" : 1754246506805,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "BinaryTreeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "BinaryTreeTest"
+  }, {
+    "name" : "package",
+    "value" : "BinaryTreeTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ddd3d1acc93ee60.json",
+  "parameterValues" : [ ]
+}

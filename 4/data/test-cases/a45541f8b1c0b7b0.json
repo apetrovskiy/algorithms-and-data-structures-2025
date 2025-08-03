@@ -1,0 +1,49 @@
+{
+  "uid" : "a45541f8b1c0b7b0",
+  "name" : "PopEmptyStack",
+  "historyId" : "StackTest:StackTest#PopEmptyStack",
+  "time" : {
+    "start" : 1754246506782,
+    "stop" : 1754246506782,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "StackTest"
+  }, {
+    "name" : "testClass",
+    "value" : "StackTest"
+  }, {
+    "name" : "package",
+    "value" : "StackTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a45541f8b1c0b7b0.json",
+  "parameterValues" : [ ]
+}

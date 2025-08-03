@@ -1,0 +1,49 @@
+{
+  "uid" : "fbcf13a50f6f9dac",
+  "name" : "BasicAssertions",
+  "historyId" : "SampleTest:SampleTest#BasicAssertions",
+  "time" : {
+    "start" : 1754246506765,
+    "stop" : 1754246506765,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "SampleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "SampleTest"
+  }, {
+    "name" : "package",
+    "value" : "SampleTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbcf13a50f6f9dac.json",
+  "parameterValues" : [ ]
+}

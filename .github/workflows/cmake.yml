@@ -1,12 +1,10 @@
 # This starter workflow is for a CMake project running on a single platform. There is a different starter workflow if you need cross-platform coverage.
 # See: https://github.com/actions/starter-workflows/blob/main/ci/cmake-multi-platform.yml
-name: CMake on a single platform
+name: Algorithms
 
 on:
   push:
-    branches: [ "develop" ]
-  pull_request:
-    branches: [ "develop" ]
+  workflow_dispatch:
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
@@ -42,3 +40,44 @@ jobs:
         pwd
         ls -la
         ./run_tests.sh
+    # - name: Allure Report with history
+    #   uses: simple-elf/allure-report-action@v1.12
+    # - name: Test local action
+    #   uses: ./allure-report-action
+    #   if: always()
+    #   id: allure-report
+    #   with:
+    #     allure_results: ./allure-results
+    #     gh_pages: gh-pages
+    #     allure_report: allure-report
+    #     allure_history: allure-history
+    - name: Get Allure history
+      uses: actions/checkout@v4
+      if: always()
+      continue-on-error: true
+      with:
+        ref: gh-pages
+        path: gh-pages
+
+    - name: Allure Report with history
+      uses: simple-elf/allure-report-action@v1.5
+      if: always()
+
+    - name: Allure Report action from marketplace
+      uses: simple-elf/allure-report-action@master
+      if: always()
+      #id: allure-report
+      with:
+        allure_results: allure-results
+        gh_pages: gh-pages
+        allure_report: allure-report
+        allure_history: allure-history
+        keep_reports: 50
+
+    - name: Deploy report to Github Pages
+      if: always()
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: allure-history

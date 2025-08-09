@@ -1,0 +1,49 @@
+{
+  "uid" : "df694275c0e2042e",
+  "name" : "FordFulkerson",
+  "historyId" : "GraphAlgorithmsTest:GraphAlgorithmsTest#FordFulkerson",
+  "time" : {
+    "start" : 1754736381163,
+    "stop" : 1754736381163,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "GraphAlgorithmsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "GraphAlgorithmsTest"
+  }, {
+    "name" : "package",
+    "value" : "GraphAlgorithmsTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df694275c0e2042e.json",
+  "parameterValues" : [ ]
+}
